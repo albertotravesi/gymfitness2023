@@ -91,10 +91,18 @@ img {
     height: auto;
 }
 
+.imagen-destacada {
+    margin-bottom: 3rem;
+}
+
 .contenedor {
     width: min(95%, 120rem);
     margin: 0 auto;
     /* para que esté centrado */
+}
+
+.contenido-centrado {
+    width: min(95%, 80rem);
 }
 
 /** Utilidades **/
@@ -102,7 +110,7 @@ img {
     text-align: center;
 }
 
-.texto-primary {
+.text-primary {
     color: var(--primario);
 }
 
