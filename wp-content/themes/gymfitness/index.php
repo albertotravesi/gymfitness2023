@@ -1,4 +1,6 @@
-<?php get_header(); ?>
+<?php 
+    get_header(); 
+?>
 
     <main>
        <?php 
@@ -11,5 +13,7 @@
             endwhile;
         ?>
     </main> 
-</body>
-</html>
+
+<?php  
+    get_footer();
+?>

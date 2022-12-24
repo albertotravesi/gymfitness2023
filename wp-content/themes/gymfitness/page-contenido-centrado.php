@@ -11,5 +11,8 @@
             get_template_part('template-parts/pagina');
         ?>
     </main> 
-</body>
-</html>
+
+<?php  
+    get_footer();
+?>
+
